@@ -2,13 +2,14 @@ const htmlConverter = (state?: string[] | any) => {
   const todos: string[] = [];
   for (let i = 0; i < state?.length; i++) {
     todos.push(
-      `<img class="lzy_img" src="https://svgshare.com/i/RGF.svg" data-src="${state[i]}" />`,
+      `<img alt="" class="lzy_img" src="https://svgshare.com/i/RGF.svg" data-src="${state[i]}" />`,
     );
   }
   return `
             <!DOCTYPE html>
             <html lang="en">
                 <head>
+                   <title>Westmanga</title>
                     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
                     <style>
                         body {
