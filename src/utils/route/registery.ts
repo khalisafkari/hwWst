@@ -9,12 +9,6 @@ import Bookmark from '@screen/bookmark';
 import History from '@screen/history';
 import PostsView from '@screen/postsView';
 import Splash from '@screen/splash';
-import HomePixabay from 'pixabay/home';
-import PostsPixabay from 'pixabay/posts';
-
-//Pixabay
-Navigation.registerComponent('com.bk2020.pixabay.home', () => HomePixabay);
-Navigation.registerComponent('com.bk2020.pixabay.posts', () => PostsPixabay);
 
 //Default
 Navigation.registerComponent('com.splash', () => Splash);

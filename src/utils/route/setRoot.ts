@@ -1,25 +1,6 @@
 import Icon from 'react-native-vector-icons/AntDesign';
 import {Navigation} from 'react-native-navigation';
 
-export const setPixabay = () => {
-  Navigation.setRoot({
-    root: {
-      stack: {
-        children: [
-          {
-            component: {
-              name: 'com.bk2020.pixabay.home',
-              options: {
-                topBar: {},
-              },
-            },
-          },
-        ],
-      },
-    },
-  });
-};
-
 export default async () => {
   Navigation.setRoot({
     root: {
